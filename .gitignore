@@ -1,0 +1,50 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+Frontend/node_modules
+/.pnp
+.pnp.js
+/old
+# testing
+/coverage
+
+# production
+/build
+Frontend/build/*
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+flask_app.log
+Backend/query_log.csv
+Backend/metadata-files/
+Backend/data/
+Backend/data/*
+Backend/DeepImageSearch/*
+Backend/metadata-files/*
+Frontend/build/asset-manifest.json
+Frontend/build/index.html
+Backend/fasttext-tmp/model.bin
+Backend/soham-tmp/__pycache__/bertscoretest.cpython-312.pyc
+Backend/soham-tmp/fasttext-tmp/data.txt
+Backend/soham-tmp/fasttext-tmp/model.bin
+Backend/fasttext-tmp/data.txt
+Backend/__pycache__/bertscoretest.cpython-312.pyc
+Backend/query_log.csv
+Backend/query_log.csv
+Frontend/build/asset-manifest.json
+
+# soham
+*.pyc
+*.vscode/
+Backend/instance/db.sqlite
+Backend/DeepImageSearch/__pycache__/__init__.cpython-312.pyc
+Backend/DeepImageSearch/__pycache__/config.cpython-312.pyc
+Backend/DeepImageSearch/__pycache__/DeepImageSearch.cpython-312.pyc

@@ -1,0 +1,11 @@
+Flask
+Flask-CORS
+DeepImageSearch
+sentence-transformers
+torch
+pandas
+numpy
+transformers
+scipy
+Pillow
+requests
